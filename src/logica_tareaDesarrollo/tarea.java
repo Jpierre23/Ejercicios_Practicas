@@ -13,7 +13,13 @@ public class tarea {
     }
 
     public void completar() {
-        completada = true;
+        if (completada){
+            System.out.println("La tarea esta completada");
+        }
+        else {
+            System.out.println("La tarea se ha completado");
+            completada = true;
+        }
     }
 
     void mostrarResponsable() {

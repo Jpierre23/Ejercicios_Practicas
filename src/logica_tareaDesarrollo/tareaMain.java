@@ -22,8 +22,18 @@ public class tareaMain {
 
         t2.completar();
 
+        t1.mostrarInformacion();
+        t1.mostrarResponsable();
         t1.mostrarEstado();
+        System.out.println();
+
+        t2.mostrarInformacion();
+        t2.mostrarResponsable();
         t2.mostrarEstado();
+        System.out.println();
+
+        t3.mostrarResponsable();
         t3.mostrarEstado();
+        t3.mostrarInformacion();
     }
 }
