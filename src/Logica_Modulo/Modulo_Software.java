@@ -22,7 +22,9 @@ public class Modulo_Software {
     }
 
     void mostrarEstado(){
-        System.out.println(terminado?"El Estado del modulo es Terminado":"El modulo sigue en progreso");
+        System.out.println(
+                terminado ? "El Estado del modulo es Terminado" : "El modulo sigue en progreso"
+        );
     }
 
     void mostrarVersion(){
